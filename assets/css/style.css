@@ -4,14 +4,15 @@
     margin: 0;
 }
 
-:root {
+/* :root {
     --dark: #0d0d0d;
     --light: whitesmoke;
     --colorscheme: #d55fe0;
-} 
+}  */
 
 #header-img {
-    background-image: url(/assets/images/webdev.jpeg);
+    background-image: url(/assets/images/webdev.png);
+    width:100%;
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,6 +20,7 @@
     background-size: cover;   
 }
 
+/* Portfolio name formatting */
 h1 {
     text-align: right;
     color:aqua;
@@ -28,26 +30,40 @@ h1 {
     padding-right: 35px;
 }
 
+
 button {
     padding:10px;
-    float: right;
-    background-color:#686868;
+    position: relative;
+    background-color:#514f4f;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-button a {
-    color: 
-}
-
+/* Navigation bar format and display type */
 nav {
     background-color: #ABB2B9;
+    display: block;
+    padding-left: 20px;
 }
 
+/* Footer formatting */
 footer {
     padding: 10px;
     color:#686868;
     font-size:medium;
     background-color: #A9CCE3;
+}
+
+#aboutme {
+    height: 500px;
+    
+}
+
+#aboutme p {
+    display: block;
+    padding-left: 25px;
+    padding-right:380px;
+    padding-top:50px;
+    font-size: larger;
 }
 
 #portrait {
@@ -61,15 +77,17 @@ a {
 }
 
 h2 {
-    padding: 15px;
-    text-align: center;
+    padding-top:5x;
+    padding-bottom:5px;
+    text-align: right;
     font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 section {
     margin-bottom: 30px;
-    padding: 60px;
+    padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#A9CCE3;
     color: #ffffff;
@@ -87,7 +105,20 @@ li a {
     margin-bottom: 30px;
 }
 
+.container {
+    display: inline-block;
 
+}
+
+/* portrait image alignment */
+.float-right {
+    float:right;
+}
+
+/* formatting background when buttons are clicked */
+button:active {
+    background-color:#89b2cd;
+}
 
 @media screen and (max-width: 992px) {
 
