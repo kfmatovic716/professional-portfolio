@@ -54,7 +54,7 @@ footer {
 }
 
 #aboutme {
-    height: 500px;
+    height: 550px;
     
 }
 
@@ -62,7 +62,7 @@ footer {
     display: block;
     padding-left: 25px;
     padding-right:380px;
-    padding-top:50px;
+    padding-top:25px;
     font-size: larger;
 }
 
@@ -72,18 +72,19 @@ footer {
 
 a {
     color:whitesmoke;
-    font-size: medium;
+    font-size: large;
     padding-bottom: 20px;
 }
 
 h2 {
-    padding-top:5x;
+   color: #3F8AA9;
     padding-bottom:5px;
-    text-align: right;
+    padding-top: 10px;
+    text-align: left;
+    padding-left:70px;
     font-size: x-large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-
 
 section {
     margin-bottom: 30px;
@@ -93,11 +94,6 @@ section {
     color: #ffffff;
 }
 
-li a {
-    padding-bottom: 50px;
-    font-size: 25px;
-    color:#ffffff;
-}
 
 #contact {
     padding: 10px;
@@ -105,11 +101,24 @@ li a {
     margin-bottom: 30px;
 }
 
+/*  container of sections */
 .container {
     display: inline-block;
 
 }
 
+/* alignment of icons in contact section */
+#contact a {
+    padding:50px;
+    padding-bottom: 50px;
+}
+
+/* format and alignment of the text contact info */
+.middle {
+    text-align: center;
+    padding-bottom:30px;
+    color:#3F8AA9;
+}
 /* portrait image alignment */
 .float-right {
     float:right;
