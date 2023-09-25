@@ -11,7 +11,7 @@
 }  */
 
 #header-img {
-    background-image: url(/assets/images/webdev.png);
+    background-image: url("/assets/images/webdev.jpeg");
     width:100%;
     height: 200px;
     background-position: center;
@@ -30,7 +30,7 @@ h1 {
     padding-right: 35px;
 }
 
-
+/* navigation buttons formatting */
 button {
     padding:10px;
     position: relative;
@@ -53,11 +53,13 @@ footer {
     background-color: #A9CCE3;
 }
 
+/* about me section height */
 #aboutme {
     height: 550px;
     
 }
 
+/* about me paragraphs formatting */
 #aboutme p {
     display: block;
     padding-left: 25px;
@@ -66,9 +68,17 @@ footer {
     font-size: larger;
 }
 
+/* formatting of portrait border */
 #portrait {
     border: 10px solid #686868;
 }
+
+/* formatting of project images border */
+.proj {
+    border: 10px solid #3F8AA9;
+
+}
+
 
 a {
     color:whitesmoke;
@@ -94,6 +104,12 @@ section {
     color: #ffffff;
 }
 
+#projects {
+    padding: 50px;
+    padding-left: 50px;
+    
+    
+}
 
 #contact {
     padding: 10px;
@@ -128,6 +144,8 @@ section {
 button:active {
     background-color:#89b2cd;
 }
+
+
 
 @media screen and (max-width: 992px) {
 
