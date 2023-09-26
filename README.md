@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-[Visit the Deployed Site](https://youtu.be/BFyeuLhjcPY)
+[Visit the Deployed Site](https://kfmatovic716.github.io/professional-portfolio/)
 
 <img src="assets/images/sample-profile.png" />
 
@@ -18,6 +18,6 @@ This professional portfolio is a versatile tool that showcases and communicates 
 
 ## Author Info
 
-* [Portfolio](#)
+* [Portfolio](https://kfmatovic716.github.io/professional-portfolio/)
 * [LinkedIn](https://www.linkedin.com/in/katherine-matovic-911666200/)
 * [Github](https://github.com/kfmatovic716)
