@@ -2,6 +2,8 @@
 
 [Visit the Deployed Site](https://youtu.be/BFyeuLhjcPY)
 
+<img src="assets/images/sample-profile.png" />
+
 ## Technology Used 
 
 | Technology         | Resource URL           | 

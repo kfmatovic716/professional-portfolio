@@ -4,12 +4,7 @@
     margin: 0;
 }
 
-/* :root {
-    --dark: #0d0d0d;
-    --light: whitesmoke;
-    --colorscheme: #d55fe0;
-}  */
-
+/* header image properties */
 #header-img {
     background-image: url("../images/webdev.jpeg");
     width:100%;
@@ -56,7 +51,8 @@ footer {
 /* about me section height */
 #aboutme {
     height: 550px;
-    
+    margin-bottom:15px;
+    margin-top:15px;
 }
 
 /* about me paragraphs formatting */
@@ -76,7 +72,7 @@ footer {
 
 /* formatting of project images border */
 .proj {
-    border: 5px solid #3F8AA9;
+    border: 5px solid #478098;
 }
 
 /* background color and text alignment of title of section Project */
@@ -85,11 +81,11 @@ footer {
     text-align: center;
 }
 
+/* Formatting of project descriptions */
 .work-desc p{
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 15px;
-    
 }
 
 a {
@@ -99,27 +95,31 @@ a {
 }
 
 h2 {
-   color: #3F8AA9;
-    padding-bottom:5px;
+   color: maroon;
     padding-top: 10px;
-    text-align: left;
-    padding-left:70px;
+    text-align: center;
     font-size: x-large;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 section {
-    margin-bottom: 10px;
-    padding: 10px;
+    padding-left: 15px;
+    padding-right:15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#A9CCE3;
     color: #ffffff;
 }
 
-#projects {
-    padding: 50px;
-    padding-left: 50px;
-    
+/* formatting of procet description */
+.center {
+    color:#514f4f;
+}
+
+/*  formatting of project titles */
+.proj-title {
+    color:#478098;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:left;
 }
 
 #contact {
@@ -132,9 +132,14 @@ section {
 /*  container of sections */
 .container {
     display: inline-block;
-
 }
 
+.grid-container {
+    margin-bottom: 15px;
+    display: flexbox;
+    width: 100%;
+    grid-template-rows: max-content;
+}
 /* alignment of icons in contact section */
 #contact a {
     padding:50px;
@@ -153,24 +158,44 @@ section {
     
 }
 
+.work-desc img {
+    margin-bottom: 20px;
+}
 /* formatting background when buttons are clicked */
 button:active {
-    background-color:#89b2cd;
+    background-color:maroon;
 }
 
 
-/* Tablets - header changes color - up to 992px */ 
+/* Tablets - nav bar changes color - up to 992px */ 
 @media screen and (max-width: 992px) {
-
+    nav {
+        background-color: black;
+    }
 }
 
-/* Large smartphones - navbar changes color - up to 768px */
+/* Large smartphones - section project background changes color & font color of "about me" paragraph - up to 768px */
 @media screen and (max-width: 768px) {
-
-}
-
-/* Small smartphones - image placeholders change color - up to 576px*/
-@media screen and (max-width: 576px ) {
+    section {
+        background-color:#eff2e0;
+      }  
     
+    #header-proj {
+        background-color: #eff2e0;
+        text-align: center;
+    }
+    
+    #aboutme p {
+        color: #686868;
+    }
 
+    nav {
+        background-color: #ABB2B9;
+    }
+
+    #aboutme {
+        height: 600px;
+        margin-bottom:15px;
+        margin-top:15px;  
+      }
 }
