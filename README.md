@@ -23,6 +23,13 @@ This professional portfolio is a versatile tool that showcases and communicates 
 * Contact icons will direct the user to the actual social media sites or email
 * Site can be properly viewed in large phones with max-width 768px and desktop with max-width 992px
 
+## Learning Points
+ * As a web developer, being able to apply advanced CSS and responsive design concepts in this application challenge is the most valuable skill I've learned to create a more appealing webpage
+ * Working with this kind of application required an intense amount of focus and patience on the details of the design process
+ * Definitely, I learned to activate my creative mind in order to come up with a design since building code from scratch
+ * Growth mindset is a must because sometimes the process can be frustrating when the design that I have in mind doesnt work,  have to think of something else to do.
+
+
 ## Author Info
 
 * [Portfolio](https://kfmatovic716.github.io/professional-portfolio/)
